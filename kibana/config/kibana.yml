@@ -1,0 +1,13 @@
+# setup.kibana:
+#   host: "localhost:5601"
+#   username: "elastic"
+#   password: "changeme"
+ 
+server.name: kibana
+server.host: "0"
+elasticsearch.hosts: [ "http://elasticsearch:9200" ]
+elasticsearch.username: kibana_system
+elasticsearch.password: "6x4RdCgbJ0PvjCVdXpLK"
+
+# output.logstash:
+#   hosts: ["localhost:5044"]
